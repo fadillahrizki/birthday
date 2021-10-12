@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #000;
+  box-sizing: border-box;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.box {
+  /* position */
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+  /* style */
+  padding: 50px;
+  border-radius: 12px;
+  background: #d2d5d8;
+  text-align: center;
+
+  /* text */
+  color: #0f0f0f;
+  font-size: 50px;
+  font-weight: bold;
+}
