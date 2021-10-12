@@ -11,10 +11,10 @@ body {
 }
 
 .box {
-  /* position */
   position: absolute;
-  top: 40%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   /* style */
   padding: 50px;
@@ -26,4 +26,18 @@ body {
   color: #0f0f0f;
   font-size: 50px;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .box {
+    font-size: 30px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .box {
+    font-size: 16px;
+    padding: 16px;
+  }
 }
