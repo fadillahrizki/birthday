@@ -58,7 +58,7 @@ fireworks.setSize({ height: screen.height, width: screen.width })
 
 var x = setInterval(()=>{
     
-    setDate("Nov 18 2021")
+    setDate("Nov 18 "+new Date().getFullYear())
 
 },1000)
 
